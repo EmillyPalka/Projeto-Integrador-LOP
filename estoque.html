@@ -1,0 +1,879 @@
+
+<html>
+<head>
+    <title>Estoque</title>
+    
+     <style>
+        body{
+            font-family: Arial, sans-serif;
+            background-color: #ffeef5;
+            padding: 30px;
+        }
+
+        h1{
+            text-align: center;
+            color: #d63384;
+        }
+
+        table{
+            width: 80%;
+            margin: auto;
+            border-collapse: collapse;
+            background-color: white;
+            border-radius: 12px;
+            overflow: hidden;
+            box-shadow: 0px 4px 10px rgba(0,0,0,0.1);
+        }
+
+        th{
+            background-color: #ffb6d9;
+            color: white;
+            padding: 12px;
+        }
+
+        td{
+            padding: 10px;
+            text-align: center;
+            border-bottom: 1px solid #f2f2f2;
+        }
+
+        tr:hover{
+            background-color: #fff0f6;
+        }
+
+        .baixo{
+            color: #ff4d6d;
+            font-weight: bold;
+        }
+
+        .medio{
+            color: #ff9f1c;
+            font-weight: bold;
+        }
+
+        .alto{
+            color: #2a9d8f;
+            font-weight: bold;
+        }
+    </style>
+
+</head>
+
+<body>
+
+    <br><h1>Produtos em estoque</h1><br><br>
+
+    <table border="1">
+
+        <tr>
+            <th>Código</th>
+            <th>Produto</th>
+            <th>Quantidade Total</th>
+            <th>Preço</th>
+            <th>Status</th>
+        </tr>
+
+        <tr>
+            <td>725481093</td>
+            <td>Processador AMD Ryzen 5 5600X Ref-824</td>
+            <td>241</td>
+            <td>R$ 984,30</td>
+            <td>Alto</td>
+        </tr>
+    
+        <tr>
+            <td>32846159</td>
+            <td>Bateria Moura 60Ah M60GD Ref-551</td>
+            <td>53</td>
+            <td>R$ 532,15</td>
+            <td>Médio</td>
+        </tr>
+    
+        <tr>
+            <td>510487362</td>
+            <td>Filtro de Óleo Fram Wega Ref-442</td>
+            <td>405</td>
+            <td>R$ 42,80</td>
+            <td>Alto</td>
+        </tr>
+    
+        <tr>
+            <td>884391052</td>
+            <td>Memória RAM Corsair Vengeance 8GB DDR4 Ref-109</td>
+            <td>186</td>
+            <td>R$ 210,45</td>
+            <td>Alto</td>
+        </tr>
+    
+        <tr>
+            <td>302948175</td>
+            <td>Pastilha de Freio Dianteira Brembo Ref-673</td>
+            <td>102</td>
+            <td>R$ 195,60</td>
+            <td>Alto</td>
+        </tr>
+    
+        <tr>
+            <td>641029483</td>
+            <td>Placa de Vídeo RTX 4060 Ref-201</td>
+            <td>42</td>
+            <td>R$ 2150,00</td>
+            <td>Baixo</td>
+        </tr>
+    
+        <tr>
+            <td>119284756</td>
+            <td>SSD Kingston NV2 1TB NVMe Ref-889</td>
+            <td>313</td>
+            <td>R$ 399,90</td>
+            <td>Alto</td>
+        </tr>
+    
+        <tr>
+            <td>903821546</td>
+            <td>Disco de Freio Ventilado Fremax Ref-341</td>
+            <td>77</td>
+            <td>R$ 285,40</td>
+            <td>Médio</td>
+        </tr>
+    
+        <tr>
+            <td>447192830</td>
+            <td>Monitor LG UltraGear 24" IPS Ref-762</td>
+            <td>66</td>
+            <td>R$ 1050,00</td>
+            <td>Médio</td>
+        </tr>
+    
+        <tr>
+            <td>582019483</td>
+            <td>Amortecedor Dianteiro Monroe Ref-129</td>
+            <td>32</td>
+            <td>R$ 480,00</td>
+            <td>Baixo</td>
+        </tr>
+    
+        <tr>
+            <td>2938471</td>
+            <td>Óleo de Motor Castrol Magnatec 5W40 1L Ref-611</td>
+            <td>520</td>
+            <td>R$ 59,90</td>
+            <td>Alto</td>
+        </tr>
+    
+        <tr>
+            <td>661928473</td>
+            <td>Placa-Mãe ASUS Prime B550M Ref-523</td>
+            <td>110</td>
+            <td>R$ 749,00</td>
+            <td>Alto</td>
+        </tr>
+    
+        <tr>
+            <td>883019284</td>
+            <td>Palheta do Limpador Bosch Aerotwin Ref-404</td>
+            <td>200</td>
+            <td>R$ 115,00</td>
+            <td>Alto</td>
+        </tr>
+    
+        <tr>
+            <td>340192847</td>
+            <td>Fonte Corsair CV550 550W Ref-892</td>
+            <td>135</td>
+            <td>R$ 365,50</td>
+            <td>Alto</td>
+        </tr>
+    
+        <tr>
+            <td>552019384</td>
+            <td>Vela de Ignição NGK Iridium Ref-712</td>
+            <td>330</td>
+            <td>R$ 65,00</td>
+            <td>Alto</td>
+        </tr>
+    
+        <tr>
+            <td>102938482</td>
+            <td>Processador AMD Ryzen 7 5700X Ref-112</td>
+            <td>89</td>
+            <td>R$ 1199,00</td>
+            <td>Médio</td>
+        </tr>
+    
+        <tr>
+            <td>492019384</td>
+            <td>Bateria Heliar 60Ah HF60GD Ref-903</td>
+            <td>61</td>
+            <td>R$ 510,00</td>
+            <td>Médio</td>
+        </tr>
+    
+        <tr>
+            <td>381029384</td>
+            <td>Filtro de Combustível Tecfil Ref-332</td>
+            <td>505</td>
+            <td>R$ 38,50</td>
+            <td>Alto</td>
+        </tr>
+    
+        <tr>
+            <td>882910293</td>
+            <td>Memória RAM Kingston Fury 16GB Ref-445</td>
+            <td>242</td>
+            <td>R$ 389,00</td>
+            <td>Alto</td>
+        </tr>
+    
+        <tr>
+            <td>901293847</td>
+            <td>Pastilha de Freio Cobreq Dianteira Ref-212</td>
+            <td>132</td>
+            <td>R$ 145,00</td>
+            <td>Alto</td>
+        </tr>
+    
+        <tr>
+            <td>481029384</td>
+            <td>Placa de Vídeo RTX 3060 MSI Ref-765</td>
+            <td>50</td>
+            <td>R$ 1850,00</td>
+            <td>Médio</td>
+        </tr>
+    
+        <tr>
+            <td>771029384</td>
+            <td>SSD Crucial BX500 480GB Ref-221</td>
+            <td>203</td>
+            <td>R$ 245,00</td>
+            <td>Alto</td>
+        </tr>
+    
+        <tr>
+            <td>291029384</td>
+            <td>Disco de Freio Traseiro TRW Ref-809</td>
+            <td>92</td>
+            <td>R$ 189,90</td>
+            <td>Médio</td>
+        </tr>
+    
+        <tr>
+            <td>661029384</td>
+            <td>Monitor Samsung T350 24" Ref-543</td>
+            <td>73</td>
+            <td>R$ 799,00</td>
+            <td>Médio</td>
+        </tr>
+    
+        <tr>
+            <td>112039485</td>
+            <td>Amortecedor Traseiro Cofap Ref-602</td>
+            <td>51</td>
+            <td>R$ 390,00</td>
+            <td>Médio</td>
+        </tr>
+    
+        <tr>
+            <td>992039485</td>
+            <td>Óleo de Motor Shell Helix 5W30 1L Ref-311</td>
+            <td>470</td>
+            <td>R$ 64,90</td>
+            <td>Alto</td>
+        </tr>
+    
+        <tr>
+            <td>332039485</td>
+            <td>Placa-Mãe Gigabyte B450M Ref-887</td>
+            <td>128</td>
+            <td>R$ 629,00</td>
+            <td>Alto</td>
+        </tr>
+    
+        <tr>
+            <td>442039485</td>
+            <td>Palheta do Limpador Dyna Slim Ref-441</td>
+            <td>245</td>
+            <td>R$ 85,00</td>
+            <td>Alto</td>
+        </tr>
+    
+        <tr>
+            <td>552039485</td>
+            <td>Fonte EVGA 600W 80 Plus Ref-901</td>
+            <td>101</td>
+            <td>R$ 399,00</td>
+            <td>Alto</td>
+        </tr>
+    
+        <tr>
+            <td>772039485</td>
+            <td>Vela de Ignição Bosch Super 4 Ref-123</td>
+            <td>395</td>
+            <td>R$ 48,00</td>
+            <td>Alto</td>
+        </tr>
+    
+        <tr>
+            <td>882039485</td>
+            <td>Processador Intel Core i5 12400F Ref-554</td>
+            <td>148</td>
+            <td>R$ 915,00</td>
+            <td>Alto</td>
+        </tr>
+    
+        <tr>
+            <td>113049586</td>
+            <td>Bateria ACDelco 60Ah Ref-702</td>
+            <td>46</td>
+            <td>R$ 499,00</td>
+            <td>Baixo</td>
+        </tr>
+    
+        <tr>
+            <td>223049586</td>
+            <td>Filtro de Ar Motores Mann Filter Ref-881</td>
+            <td>340</td>
+            <td>R$ 52,00</td>
+            <td>Alto</td>
+        </tr>
+    
+        <tr>
+            <td>663049586</td>
+            <td>Memória RAM XPG Spectrix 8GB Ref-992</td>
+            <td>167</td>
+            <td>R$ 235,00</td>
+            <td>Alto</td>
+        </tr>
+    
+        <tr>
+            <td>443049586</td>
+            <td>Pastilha de Freio Dianteira Fras-le Ref-104</td>
+            <td>157</td>
+            <td>R$ 138,00</td>
+            <td>Alto</td>
+        </tr>
+    
+        <tr>
+            <td>553049586</td>
+            <td>Placa de Vídeo GTX 1650 Speedster Ref-305</td>
+            <td>34</td>
+            <td>R$ 949,00</td>
+            <td>Baixo</td>
+        </tr>
+    
+        <tr>
+            <td>993049586</td>
+            <td>SSD SanDisk Plus 1TB SATA Ref-402</td>
+            <td>136</td>
+            <td>R$ 369,00</td>
+            <td>Alto</td>
+        </tr>
+    
+        <tr>
+            <td>333049586</td>
+            <td>Disco de Freio Dianteira Hipper Freios Ref-771</td>
+            <td>113</td>
+            <td>R$ 165,00</td>
+            <td>Alto</td>
+        </tr>
+    
+        <tr>
+            <td>773049586</td>
+            <td>Monitor ASUS VP228H 21.5" Ref-662</td>
+            <td>56</td>
+            <td>R$ 699,00</td>
+            <td>Médio</td>
+        </tr>
+    
+        <tr>
+            <td>883049586</td>
+            <td>Amortecedor Dianteiro Nakata Ref-339</td>
+            <td>41</td>
+            <td>R$ 425,00</td>
+            <td>Baixo</td>
+        </tr>
+    
+        <tr>
+            <td>114059687</td>
+            <td>Óleo de Motor Selenia 15W40 1L Ref-502</td>
+            <td>360</td>
+            <td>R$ 45,50</td>
+            <td>Alto</td>
+        </tr>
+    
+        <tr>
+            <td>224059687</td>
+            <td>Placa-Mãe MSI Mag B550 Ref-883</td>
+            <td>76</td>
+            <td>R$ 899,00</td>
+            <td>Médio</td>
+        </tr>
+    
+        <tr>
+            <td>334059687</td>
+            <td>Palheta Limpador Valeo Cibié Ref-219</td>
+            <td>178</td>
+            <td>R$ 95,00</td>
+            <td>Alto</td>
+        </tr>
+    
+        <tr>
+            <td>444059687</td>
+            <td>Fonte XPG Pylon 650W Ref-774</td>
+            <td>112</td>
+            <td>R$ 415,00</td>
+            <td>Alto</td>
+        </tr>
+    
+        <tr>
+            <td>554059687</td>
+            <td>Vela de Ignição Magneti Marelli Ref-661</td>
+            <td>460</td>
+            <td>R$ 35,00</td>
+            <td>Alto</td>
+        </tr>
+    
+        <tr>
+            <td>664059687</td>
+            <td>Processador AMD Ryzen 5 4500 Ref-102</td>
+            <td>186</td>
+            <td>R$ 549,00</td>
+            <td>Alto</td>
+        </tr>
+    
+        <tr>
+            <td>774059687</td>
+            <td>Bateria Bosch 60Ah S5 Ref-991</td>
+            <td>57</td>
+            <td>R$ 589,00</td>
+            <td>Médio</td>
+        </tr>
+    
+        <tr>
+            <td>884059687</td>
+            <td>Filtro de Óleo Bosch Premium Ref-552</td>
+            <td>610</td>
+            <td>R$ 49,90</td>
+            <td>Alto</td>
+        </tr>
+    
+        <tr>
+            <td>994059687</td>
+            <td>Memória RAM Geil Orion 16GB Ref-304</td>
+            <td>102</td>
+            <td>R$ 349,00</td>
+            <td>Alto</td>
+        </tr>
+    
+        <tr>
+            <td>115069788</td>
+            <td>Pastilha de Freio Dianteira Willtec Ref-801</td>
+            <td>185</td>
+            <td>R$ 112,00</td>
+            <td>Alto</td>
+        </tr>
+    
+        <tr>
+            <td>225069788</td>
+            <td>Placa de Vídeo RX 6600 V2 Ref-441</td>
+            <td>65</td>
+            <td>R$ 1499,00</td>
+            <td>Médio</td>
+        </tr>
+    
+        <tr>
+            <td>335069788</td>
+            <td>SSD XPG SFT 1TB NVMe Ref-663</td>
+            <td>162</td>
+            <td>R$ 429,00</td>
+            <td>Alto</td>
+        </tr>
+    
+        <tr>
+            <td>445069788</td>
+            <td>Disco de Freio Traseiro Vargas Ref-904</td>
+            <td>71</td>
+            <td>R$ 155,00</td>
+            <td>Médio</td>
+        </tr>
+    
+        <tr>
+            <td>555069788</td>
+            <td>Monitor AOC Hero 24" 144Hz Ref-221</td>
+            <td>52</td>
+            <td>R$ 1199,00</td>
+            <td>Médio</td>
+        </tr>
+    
+        <tr>
+            <td>665069788</td>
+            <td>Amortecedor Traseiro Kyb Ref-504</td>
+            <td>62</td>
+            <td>R$ 460,00</td>
+            <td>Médio</td>
+        </tr>
+    
+        <tr>
+            <td>775069788</td>
+            <td>Óleo de Motor Lubrax Tecno 10W40 Ref-882</td>
+            <td>395</td>
+            <td>R$ 42,00</td>
+            <td>Alto</td>
+        </tr>
+    
+        <tr>
+            <td>885069788</td>
+            <td>Placa-Mãe Biostar H510M Ref-109</td>
+            <td>91</td>
+            <td>R$ 489,00</td>
+            <td>Médio</td>
+        </tr>
+    
+        <tr>
+            <td>995069788</td>
+            <td>Palheta Limpador Trico Flex Ref-331</td>
+            <td>217</td>
+            <td>R$ 75,00</td>
+            <td>Alto</td>
+        </tr>
+    
+        <tr>
+            <td>116079889</td>
+            <td>Fonte Aerocool KCAS 500W Ref-772</td>
+            <td>130</td>
+            <td>R$ 289,00</td>
+            <td>Alto</td>
+        </tr>
+    
+        <tr>
+            <td>226079889</td>
+            <td>Vela de Ignição Denso Iridium Ref-449</td>
+            <td>275</td>
+            <td>R$ 79,90</td>
+            <td>Alto</td>
+        </tr>
+    
+        <tr>
+            <td>336079889</td>
+            <td>Processador Intel Core i3 12100F Ref-501</td>
+            <td>156</td>
+            <td>R$ 649,00</td>
+            <td>Alto</td>
+        </tr>
+    
+        <tr>
+            <td>446079889</td>
+            <td>Bateria Cral 60Ah CL60HD Ref-994</td>
+            <td>70</td>
+            <td>R$ 429,00</td>
+            <td>Médio</td>
+        </tr>
+    
+        <tr>
+            <td>556079889</td>
+            <td>Filtro de Ar Condicionado Filter Ref-223</td>
+            <td>660</td>
+            <td>R$ 29,90</td>
+            <td>Alto</td>
+        </tr>
+    
+        <tr>
+            <td>666079889</td>
+            <td>Memória RAM Team Group 8GB Ref-551</td>
+            <td>255</td>
+            <td>R$ 189,00</td>
+            <td>Alto</td>
+        </tr>
+    
+        <tr>
+            <td>776079889</td>
+            <td>Pastilha de Freio Traseira Bosch Ref-803</td>
+            <td>110</td>
+            <td>R$ 165,00</td>
+            <td>Alto</td>
+        </tr>
+    
+        <tr>
+            <td>886079889</td>
+            <td>Placa de Vídeo RTX 4070 Dual Ref-104</td>
+            <td>25</td>
+            <td>R$ 4399,00</td>
+            <td>Baixo</td>
+        </tr>
+    
+        <tr>
+            <td>996079889</td>
+            <td>SSD WD Green 480GB SATA Ref-668</td>
+            <td>217</td>
+            <td>R$ 259,00</td>
+            <td>Alto</td>
+        </tr>
+    
+        <tr>
+            <td>117089990</td>
+            <td>Disco de Freio Dianteiro MDS Ref-334</td>
+            <td>96</td>
+            <td>R$ 148,00</td>
+            <td>Médio</td>
+        </tr>
+    
+        <tr>
+            <td>227089990</td>
+            <td>Monitor Acer Nitro 23.8" Ref-779</td>
+            <td>67</td>
+            <td>R$ 949,00</td>
+            <td>Médio</td>
+        </tr>
+    
+        <tr>
+            <td>337089990</td>
+            <td>Amortecedor Dianteiro Corven Ref-202</td>
+            <td>47</td>
+            <td>R$ 360,00</td>
+            <td>Baixo</td>
+        </tr>
+    
+        <tr>
+            <td>447089990</td>
+            <td>Óleo de Motor Havoline 5W30 1L Ref-559</td>
+            <td>440</td>
+            <td>R$ 54,90</td>
+            <td>Alto</td>
+        </tr>
+    
+        <tr>
+            <td>557089990</td>
+            <td>Placa-Mãe ASUS TUF Gaming B550M Ref-884</td>
+            <td>101</td>
+            <td>R$ 999,00</td>
+            <td>Alto</td>
+        </tr>
+    
+        <tr>
+            <td>667089990</td>
+            <td>Palheta do Limpador Valeo Evolution Ref-111</td>
+            <td>155</td>
+            <td>R$ 105,00</td>
+            <td>Alto</td>
+        </tr>
+    
+        <tr>
+            <td>777089990</td>
+            <td>Fonte Seasonic Core 550W Ref-442</td>
+            <td>54</td>
+            <td>R$ 549,00</td>
+            <td>Médio</td>
+        </tr>
+    
+        <tr>
+            <td>887089990</td>
+            <td>Vela de Ignição ACDelco Ref-709</td>
+            <td>425</td>
+            <td>R$ 32,00</td>
+            <td>Alto</td>
+        </tr>
+    
+        <tr>
+            <td>997089990</td>
+            <td>Processador AMD Ryzen 9 5900X Ref-335</td>
+            <td>23</td>
+            <td>R$ 2399,00</td>
+            <td>Baixo</td>
+        </tr>
+    
+        <tr>
+            <td>118090001</td>
+            <td>Bateria Tudor 60Ah TUD60 Ref-214</td>
+            <td>43</td>
+            <td>R$ 469,00</td>
+            <td>Baixo</td>
+        </tr>
+    
+        <tr>
+            <td>228090001</td>
+            <td>Filtro de Combustível Fram Ref-882</td>
+            <td>555</td>
+            <td>R$ 41,00</td>
+            <td>Alto</td>
+        </tr>
+    
+        <tr>
+            <td>338090001</td>
+            <td>Memória RAM Crucial Basics 16GB Ref-505</td>
+            <td>110</td>
+            <td>R$ 315,00</td>
+            <td>Alto</td>
+        </tr>
+    
+        <tr>
+            <td>448090001</td>
+            <td>Pastilha de Freio Traseira Brembo Ref-664</td>
+            <td>60</td>
+            <td>R$ 245,00</td>
+            <td>Médio</td>
+        </tr>
+    
+        <tr>
+            <td>558090001</td>
+            <td>Placa de Vídeo RX 7600 XT Ref-102</td>
+            <td>40</td>
+            <td>R$ 2349,00</td>
+            <td>Baixo</td>
+        </tr>
+    
+        <tr>
+            <td>668090001</td>
+            <td>SSD Kingston KC3000 1TB NVMe Ref-443</td>
+            <td>110</td>
+            <td>R$ 649,00</td>
+            <td>Alto</td>
+        </tr>
+    
+        <tr>
+            <td>778090001</td>
+            <td>Disco de Freio Ventilado BD Ref-772</td>
+            <td>135</td>
+            <td>R$ 198,00</td>
+            <td>Alto</td>
+        </tr>
+    
+        <tr>
+            <td>888090001</td>
+            <td>Monitor BenQ ZOWIE 24" Ref-331</td>
+            <td>30</td>
+            <td>R$ 1699,00</td>
+            <td>Baixo</td>
+        </tr>
+    
+        <tr>
+            <td>998090001</td>
+            <td>Amortecedor Traseiro Monroe OES Ref-556</td>
+            <td>79</td>
+            <td>R$ 415,00</td>
+            <td>Médio</td>
+        </tr>
+    
+        <tr>
+            <td>119001112</td>
+            <td>Óleo de Motor Mobil Super 5W40 Ref-809</td>
+            <td>505</td>
+            <td>R$ 58,00</td>
+            <td>Alto</td>
+        </tr>
+    
+        <tr>
+            <td>229001112</td>
+            <td>Placa-Mãe ASRock Steel Legend Ref-212</td>
+            <td>87</td>
+            <td>R$ 849,00</td>
+            <td>Médio</td>
+        </tr>
+    
+        <tr>
+            <td>339001112</td>
+            <td>Palheta Limpador Bosch Eco Ref-774</td>
+            <td>330</td>
+            <td>R$ 65,00</td>
+            <td>Alto</td>
+        </tr>
+    
+        <tr>
+            <td>449001112</td>
+            <td>Fonte Cooler Master 650W Ref-501</td>
+            <td>126</td>
+            <td>R$ 429,00</td>
+            <td>Alto</td>
+        </tr>
+    
+        <tr>
+            <td>559001112</td>
+            <td>Vela de Ignição Champion Ref-992</td>
+            <td>345</td>
+            <td>R$ 28,00</td>
+            <td>Alto</td>
+        </tr>
+    
+        <tr>
+            <td>669001112</td>
+            <td>Processador Intel Core i7 12700K Ref-103</td>
+            <td>39</td>
+            <td>R$ 2199,00</td>
+            <td>Baixo</td>
+        </tr>
+    
+        <tr>
+            <td>779001112</td>
+            <td>Bateria Heliar 70Ah HF70GD Ref-448</td>
+            <td>33</td>
+            <td>R$ 689,00</td>
+            <td>Baixo</td>
+        </tr>
+    
+        <tr>
+            <td>889001112</td>
+            <td>Filtro de Ar Elemento Tecfil Ref-339</td>
+            <td>465</td>
+            <td>R$ 46,00</td>
+            <td>Alto</td>
+        </tr>
+    
+        <tr>
+            <td>999001112</td>
+            <td>Memória RAM Netac RGB 8GB DDR4 Ref-559</td>
+            <td>195</td>
+            <td>R$ 199,00</td>
+            <td>Alto</td>
+        </tr>
+    
+        <tr>
+            <td>120012223</td>
+            <td>Pastilha de Freio Dianteira SYL Ref-702</td>
+            <td>230</td>
+            <td>R$ 98,00</td>
+            <td>Alto</td>
+        </tr>
+    
+        <tr>
+            <td>230012223</td>
+            <td>Placa de Vídeo GTX 1660 Super Ref-881</td>
+            <td>55</td>
+            <td>R$ 1349,00</td>
+            <td>Médio</td>
+        </tr>
+    
+        <tr>
+            <td>340012223</td>
+            <td>SSD ADATA Legend 512GB NVMe Ref-219</td>
+            <td>168</td>
+            <td>R$ 289,00</td>
+            <td>Alto</td>
+        </tr>
+    
+        <tr>
+            <td>450012223</td>
+            <td>Disco de Freio Solido Fremax Ref-661</td>
+            <td>139</td>
+            <td>R$ 135,00</td>
+            <td>Alto</td>
+        </tr>
+    
+        <tr>
+            <td>560012223</td>
+            <td>Monitor Philips 24" IPS 75Hz Ref-104</td>
+            <td>88</td>
+            <td>R$ 749,00</td>
+            <td>Médio</td>
+        </tr>
+    
+        <tr>
+            <td>670012223</td>
+            <td>Amortecedor Dianteiro Corven Plus Ref-552</td>
+            <td>43</td>
+            <td>R$ 385,00</td>
+            <td>Baixo</td>
+        </tr>
+    
+    </table>
+
+</body>
+</html>
